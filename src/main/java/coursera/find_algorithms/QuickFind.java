@@ -1,4 +1,4 @@
-package coursera;
+package coursera.find_algorithms;
 
 /**
  * Eager algorithm for solving connectivity problem

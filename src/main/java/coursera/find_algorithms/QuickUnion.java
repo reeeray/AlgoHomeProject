@@ -1,4 +1,4 @@
-package coursera;
+package coursera.find_algorithms;
 
 /**
  * Laze approach
