@@ -3,10 +3,20 @@ package coursera.sort_algorithms;
 import edu.princeton.cs.algs4.Insertion;
 
 /**
- * It's an example of approach whick called Divide and Concur. The sense is that you are dividing the problem and than merging
+ * It's an example of approach which called Divide and Concur. The sense is that you are dividing the problem and than merging
  * the solutions of small problems into solution of big problem.
  *
  * Merge sort takes N*log(N) time
+ *
+ * It doesn't matter if keys has duplicates. It's always between 1/2N*lgN and N*lgN
+ *
+ * Why does Arrays.sort() in Java use mergesort instead of quicksort when sorting reference types ?
+ *
+ * The Java API for Arrays.sort() for reference types requires that it is stable and guarantees nlogn performance.
+ * Neither of these are properties of standard quicksort.
+ *
+ * Quicksort uses less memory and is faster in practice on typical inputs (and is typically used by
+ * Arrays.sort() when sorting primitive types, where stability is not relevant).
  */
 public class MergeSort {
 

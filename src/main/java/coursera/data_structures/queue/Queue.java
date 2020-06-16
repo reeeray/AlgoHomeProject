@@ -1,6 +1,6 @@
 package coursera.data_structures.queue;
 
-public interface Queue<T> {
+public interface Queue<T> extends Iterable<T> {
 
     void enqueue(T item);
 

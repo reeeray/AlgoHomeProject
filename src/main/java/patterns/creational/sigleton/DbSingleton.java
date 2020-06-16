@@ -1,5 +1,7 @@
 package patterns.creational.sigleton;
 
+import java.sql.Connection;
+
 /**
  *
  * Common use creational pattern Singleton. Design :
@@ -37,5 +39,9 @@ public class DbSingleton {
             }
         }
         return instance;
+    }
+
+    public static Connection getConnection() {
+        return null;
     }
 }
