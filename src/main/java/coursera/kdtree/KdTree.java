@@ -12,31 +12,29 @@ import edu.princeton.cs.algs4.StdDraw;
 public class KdTree {
 
     private static final boolean VERTICAL = true;
-    private static final boolean HORIZONTAL = false;
     private static final RectHV CONTAINER = new RectHV(0, 0, 1, 1);
+
     private Node root;
     private int size;
 
     /**
-     * Construct an empty kd-tree
+     * Construct an empty KdTree
      */
     public KdTree() {
-        root = null;
-        size = 0;
+        this.root = null;
+        this.size = 0;
     }
 
     /**
-     * Is the set empty?
-     *
-     * @return
+     * Is the tree empty ?
+     * @return true if it's empty
      */
     public boolean isEmpty() {
         return root == null;
     }
 
     /**
-     * Number of points in the tree
-     *
+     * Number of points in the tree.
      * @return
      */
     public int size() {
@@ -44,76 +42,71 @@ public class KdTree {
     }
 
     /**
-     * Add the point p to the tree (if it is not already in the tree).
-     *
-     * @param p
+     * Insert the point in the tree (if it is not already there)
+     * @param point
      */
-    public void insert(Point2D p) {
-        root = insert(root, p, true);
+    public void insert(final Point2D point) {
+        root = insert(root, point, VERTICAL);
     }
 
     /**
-     * add point p to subtree rooted at node
-     *
+     * Insert the point into the subtree rooted at node
      * @param node
-     * @param p
+     * @param point
      * @param vertical
      * @return
      */
-    private Node insert(final Node node, final Point2D p,
-                        final boolean vertical) {
-        // if new node, create it
+    private Node insert(final Node node, final Point2D point, final boolean vertical) {
+
+        //if node is not exists
         if (node == null) {
             size++;
-            return new Node(p, null, null, vertical);
+            return new Node(point, vertical);
         }
+        //if we found node
+        if (node.point.x() == point.x() && node.point.y() == point.y())
+            return node;
 
-        // if already in, return it
-        if (node.point.x() == p.x() && node.point.y() == p.y()) return node;
-
-        // else, insert it where corresponds (left - right recursive call)
-        if (node.vertical && p.x() < node.point.x() || !node.vertical && p.y() < node.point.y())
-            node.leftBranch = insert(node.leftBranch, p, !node.vertical);
+        //insert it where corresponds (left or right)
+        if ((node.vertical && node.point.x() > point.x()) || (!node.vertical && node.point.y() > point.y()))
+            node.left = insert(node.left, point, !vertical);
         else
-            node.rightBranch = insert(node.rightBranch, p, !node.vertical);
-
+            node.right = insert(node.right, point, !vertical);
         return node;
     }
 
     /**
-     * Does the tree contain the point p?
-     *
-     * @param p
+     * If the tree contains the point
+     * @param point
      * @return
      */
-    public boolean contains(Point2D p) {
-        return contains(root, p.x(), p.y());
+    public boolean contains(final Point2D point) {
+        return contains(root, point);
     }
 
     /**
-     * does the subtree rooted at node contain (x, y)?
-     *
+     * If the subtree rooted at node contains point
      * @param node
-     * @param x
-     * @param y
+     * @param point
      * @return
      */
-    private boolean contains(Node node, double x, double y) {
+    private boolean contains(final Node node, final Point2D point) {
         if (node == null) return false;
-        if (node.point.x() == x && node.point.y() == y) return true;
 
-        if (node.vertical && x < node.point.x() || !node.vertical && y < node.point.y())
-            return contains(node.leftBranch, x, y);
+        if (node.point.x() == point.x() && node.point.y() == point.y())
+            return true;
+
+        if ((node.vertical && node.point.x() > point.x()) || (!node.vertical && node.point.y() > point.y()))
+            return contains(node.left, point);
         else
-            return contains(node.rightBranch, x, y);
+            return contains(node.right, point);
     }
 
     /**
-     * Draw all of the points to standard draw
+     * Draw all the points
      */
     public void draw() {
         StdDraw.setScale(0, 1);
-
         StdDraw.setPenColor(StdDraw.BLACK);
         StdDraw.setPenRadius();
         CONTAINER.draw();
@@ -121,167 +114,168 @@ public class KdTree {
         draw(root, CONTAINER);
     }
 
-    // helper: draw node point and its division line (given by rect)
+    /**
+     * Draw node point and it's division line
+     *
+     * @param node
+     * @param rect
+     */
     private void draw(final Node node, final RectHV rect) {
         if (node == null) return;
 
-        // draw the point
-        StdDraw.setPenColor(StdDraw.BLACK);
+        //draw the point
+        StdDraw.setPenColor(StdDraw.GREEN);
         StdDraw.setPenRadius(0.01);
-        new Point2D(node.point.x(), node.point.y()).draw();
+        node.point.draw();
 
-        // get the min and max points of division line
+        //calculate min and max points of the division line
         Point2D min, max;
         if (node.vertical) {
-            StdDraw.setPenColor(StdDraw.RED);
             min = new Point2D(node.point.x(), rect.ymin());
             max = new Point2D(node.point.x(), rect.ymax());
-        } else {
-            StdDraw.setPenColor(StdDraw.BLUE);
+        }else {
             min = new Point2D(rect.xmin(), node.point.y());
-            max = new Point2D(rect.xmax(), node.point.y());
+            max = new Point2D(rect.ymax(), node.point.y());
         }
 
-        // draw that division line
+        //draw division line
         StdDraw.setPenRadius();
         min.drawTo(max);
 
-        // recursively draw children
-        draw(node.leftBranch, leftRect(rect, node));
-        draw(node.rightBranch, rightRect(rect, node));
+        //recursively draw children
+        draw(node.left, leftRect(node, rect));
+        draw(node.right, rightRect(node, rect));
     }
 
-    // helper: get the left rectangle of node inside parent's rect
-    private RectHV leftRect(final RectHV rect, final Node node) {
-        if (node.vertical)
+    /**
+     * get the left rectangle of the node's rectangle
+     *
+     * @param node
+     * @param rect
+     * @return
+     */
+    private RectHV leftRect(final Node node, final RectHV rect) {
+        if (node.vertical) {
             return new RectHV(rect.xmin(), rect.ymin(), node.point.x(), rect.ymax());
-        else
+        }else
             return new RectHV(rect.xmin(), rect.ymin(), rect.xmax(), node.point.y());
     }
 
-    // helper: get the right rectangle of node inside parent's rect
-    private RectHV rightRect(final RectHV rect, final Node node) {
-        if (node.vertical)
+    /**
+     * get the right rectangle of the node's rectangle
+     *
+     * @param node
+     * @param rect
+     * @return
+     */
+    private RectHV rightRect(final Node node, final RectHV rect) {
+        if (node.vertical) {
             return new RectHV(node.point.x(), rect.ymin(), rect.xmax(), rect.ymax());
-        else
+        } else
             return new RectHV(rect.xmin(), node.point.y(), rect.xmax(), rect.ymax());
     }
 
     /**
-     * All points in the tree that are inside the rectangle
-     *
+     * All points of the three which are inside of the rectangle
      * @param rect
      * @return
      */
-    public Iterable<Point2D> range(RectHV rect) {
-        final Queue<Point2D> queue = new Queue<Point2D>();
+    public Iterable<Point2D> range(final RectHV rect) {
+        final Queue<Point2D> queue = new Queue<>();
         range(root, CONTAINER, rect, queue);
-
         return queue;
     }
 
     /**
-     * points in subtree rooted at node inside rect
-     *
+     * Points in subtree rooted at node which are inside the rectangle
      * @param node
-     * @param nrect
      * @param rect
+     * @param required
      * @param queue
      */
-    private void range(final Node node, final RectHV nrect,
-                       final RectHV rect, final Queue<Point2D> queue) {
+    private void range(final Node node, final RectHV rect, final RectHV required, final Queue queue) {
         if (node == null) return;
 
-        if (rect.intersects(nrect)) {
-            final Point2D p = new Point2D(node.point.x(), node.point.y());
-            if (rect.contains(p)) queue.enqueue(p);
-            range(node.leftBranch, leftRect(nrect, node), rect, queue);
-            range(node.rightBranch, rightRect(nrect, node), rect, queue);
+        if (required.intersects(rect)) {
+            if (required.contains(node.point)) queue.enqueue(node.point);
+            range(node.left, leftRect(node, rect), required, queue);
+            range(node.right, rightRect(node, rect), required, queue);
         }
     }
 
     /**
-     * A nearest neighbor in the tree to p; null if set is empty
-     *
-     * @param p
+     * Nearest neighbour in the tree to the input point
+     * @param point
      * @return
      */
-    public Point2D nearest(Point2D p) {
-        return nearestNeighbour(root, CONTAINER, p.x(), p.y(), null);
+    public Point2D nearest(final Point2D point) {
+        return nearest(root, CONTAINER, point, null);
     }
 
     /**
-     * nearest neighbor of (x,y) in subtree rooted at node
-     *
+     * Nearest candidate in subtree rooted at node
      * @param node
      * @param rect
-     * @param x
-     * @param y
+     * @param sample
      * @param candidate
      * @return
      */
-    private Point2D nearestNeighbour(final Node node, final RectHV rect,
-                                     final double x, final double y,
-                                     final Point2D candidate) {
+    private Point2D nearest(final Node node, final RectHV rect, final Point2D sample, final Point2D candidate) {
         if (node == null) return candidate;
 
-        double dqn = 0.0;
-        double drq = 0.0;
+        double dqn = 0.D;
+        double drq = 0.D;
         RectHV left = null;
-        RectHV rigt = null;
-        final Point2D query = new Point2D(x, y);
+        RectHV right = null;
         Point2D nearest = candidate;
 
         if (nearest != null) {
-            dqn = query.distanceSquaredTo(nearest);
-            drq = rect.distanceSquaredTo(query);
+            dqn = sample.distanceSquaredTo(nearest);
+            drq = rect.distanceSquaredTo(nearest);
         }
 
         if (nearest == null || dqn > drq) {
             final Point2D point = new Point2D(node.point.x(), node.point.y());
-            if (nearest == null || dqn > query.distanceSquaredTo(point))
+            if (nearest == null || dqn > sample.distanceSquaredTo(point))
                 nearest = point;
-
-            if (node.vertical) {
+            if(node.vertical) {
                 left = new RectHV(rect.xmin(), rect.ymin(), node.point.x(), rect.ymax());
-                rigt = new RectHV(node.point.x(), rect.ymin(), rect.xmax(), rect.ymax());
+                right = new RectHV(node.point.x(), rect.ymin(), rect.xmax(), rect.ymax());
 
-                if (x < node.point.x()) {
-                    nearest = nearestNeighbour(node.leftBranch, left, x, y, nearest);
-                    nearest = nearestNeighbour(node.rightBranch, rigt, x, y, nearest);
+                if (sample.x() < node.point.x()) {
+                    nearest = nearest(node.left, left, sample, nearest);
+                    nearest = nearest(node.right, right, sample, nearest);
                 } else {
-                    nearest = nearestNeighbour(node.rightBranch, rigt, x, y, nearest);
-                    nearest = nearestNeighbour(node.leftBranch, left, x, y, nearest);
+                    nearest = nearest(node.right, right, sample, nearest);
+                    nearest = nearest(node.left, left, sample, nearest);
                 }
             } else {
                 left = new RectHV(rect.xmin(), rect.ymin(), rect.xmax(), node.point.y());
-                rigt = new RectHV(rect.xmin(), node.point.y(), rect.xmax(), rect.ymax());
+                right = new RectHV(rect.xmin(), node.point.y(), rect.xmax(), rect.ymax());
 
-                if (y < node.point.y()) {
-                    nearest = nearestNeighbour(node.leftBranch, left, x, y, nearest);
-                    nearest = nearestNeighbour(node.rightBranch, rigt, x, y, nearest);
+                if (sample.y() < node.point.y()) {
+                    nearest = nearest(node.left, left, sample, nearest);
+                    nearest = nearest(node.right, right, sample, nearest);
                 } else {
-                    nearest = nearestNeighbour(node.rightBranch, rigt, x, y, nearest);
-                    nearest = nearestNeighbour(node.leftBranch, left, x, y, nearest);
+                    nearest = nearest(node.right, right, sample, nearest);
+                    nearest = nearest(node.left, left, sample, nearest);
                 }
+
             }
         }
-
         return nearest;
     }
 
+
     private static class Node {
+
         private Point2D point;
-        private Node leftBranch, rightBranch;
-        private final boolean vertical;
+        private boolean vertical;
+        private Node left, right;
 
-        public Node(final Point2D point, final Node left,
-                    final Node right, final boolean vertical) {
+        public Node(final Point2D point, final boolean vert) {
             this.point = point;
-            this.leftBranch = left;
-            this.rightBranch = right;
-            this.vertical = vertical;
-
+            this.vertical = vert;
         }
     }
 }
