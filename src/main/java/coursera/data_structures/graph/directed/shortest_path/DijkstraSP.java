@@ -7,6 +7,8 @@ import edu.princeton.cs.algs4.IndexMinPQ;
 /**
  * Dijkstra(btw he is from Netherlands)  Shortest Path Algorithm :
  * Applicable only  for graphs with non negative edge weights
+ * based on binary heap :
+ * Time : ElogV. Extra Space : V
  * User : Shein G.A.{@reeeray}
  * Date : 26.06.2020
  **/

@@ -1,75 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/coursera/collinear_points/BruteCollinearPoints.java" line="16" mnemonic="6" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6a7cc97-35cf-47d8-9155-6d35627047be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/SumOf3Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/BruteCollinearPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/FastCollinearPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/LineSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/queue/QueueLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/stack/StackArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/stack/StackLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/deques_and_randomized_queues/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/deques_and_randomized_queues/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/deques_and_randomized_queues/RandomizedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/sort_algorithms/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/sort_algorithms/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AbstractFactoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexGoldCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexGoldValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexPlatinumCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexPlatinumValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/CardType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/CreditCardFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaBlackCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaGoldCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/LunchOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/LunchOrderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/AboutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/CommentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/ContactPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/FactoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/ItemPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/PostPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/Website.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/WebsiteFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory/WebsiteType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/PrototypeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Registry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/sigleton/DbSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/sigleton/DbSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c6a7cc97-35cf-47d8-9155-6d35627047be" name="Default Changelist" comment="structural patterns and some sorts algorithms">
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FlowEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FlowNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FordFulkersonAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/AcyclicSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/BellFordSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/TNT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/baseball_elimination/BaseballElimination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/baseball_elimination/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/OptimizedTST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/seam_carving/SeamCarver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/seam_carving/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/BoyerMoore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/KeyIndexSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/LSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/LongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/MSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/RabinKarp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/SubStringSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/ThreeWayQuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Ugly_Number_II_264.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/ReconstructItinerary_332.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/trees/Binary_Tree_Level_Orde_TraversalII_107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/trees/WordSearch2_212.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/QuickFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/find_algorithms/QuickFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/QuickUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/find_algorithms/QuickUnion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/Percolation/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/Percolation/Percolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/Percolation/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/Percolation/PercolationStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/BruteCollinearPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/collinear_points/BruteCollinearPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/FastCollinearPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/collinear_points/FastCollinearPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/LineSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/collinear_points/LineSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/collinear_points/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/OrderedDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/OrderedDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/DijkstraSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/DijkstraSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/Outcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/wordnet/Outcast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/SAP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/wordnet/SAP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/WordNet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/wordnet/WordNet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/deques_and_randomized_queues/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/deques_and_randomized_queues/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/deques_and_randomized_queues/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/deques_and_randomized_queues/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/deques_and_randomized_queues/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/deques_and_randomized_queues/RandomizedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/kdtree/KdTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/kdtree/KdTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/kdtree/KdTreeVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/kdtree/KdTreeVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/kdtree/NearestVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/kdtree/NearestVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/kdtree/PointSET.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/kdtree/PointSET.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/kdtree/RangeVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/kdtree/RangeVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/slider_puzzle/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/slider_puzzle/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/slider_puzzle/SliderPuzzleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/slider_puzzle/SliderPuzzleDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/slider_puzzle/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/slider_puzzle/Solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/coursera/slider_puzzle/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/coursera/projects_part1/slider_puzzle/BoardTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -88,99 +71,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/find_algorithms/QuickFind.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/LSD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/find_algorithms/QuickUnion.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/MSD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/BinarySearchAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/sort_algorithms/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-              <folding>
-                <element signature="e#2265#2266#0" expanded="true" />
-                <element signature="e#2306#2307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/SelectionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="72" />
+            <state relative-caret-position="-111">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/InsertionSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/SubStringSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state relative-caret-position="90">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/BubbleSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/LongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            <state relative-caret-position="315">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/Util.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="227">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
               <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AbstractFactoryDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/ThreeWayQuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="525">
+              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/SumOf3Algorithm.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/TNT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="187">
+              <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/RabinKarp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/BoyerMoore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/KeyIndexSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -190,11 +168,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>solver</find>
+      <find>dfa</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/coursera/data_structures/graph</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -495,57 +487,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/collinear_points/LineSegment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/collinear_points/Point.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/collinear_points/BruteCollinearPoints.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/collinear_points/FastCollinearPoints.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/crearional/sigleton/DbSingletonTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/crearional/sigleton/DbSingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/sigleton/DbSingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/builder/LunchOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/builder/LunchOrderDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Registry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/PrototypeDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/ContactPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/CartPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/AboutPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/Website.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/PostPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/CommentPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/Blog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/ItemPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/SearchPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/Shop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/WebsiteType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/WebsiteFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/factory/FactoryDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/CardType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/CreditCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexPlatinumValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexPlatinumCreditCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexGoldCreditCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexGoldValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/Validator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaBlackCreditCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaGoldCreditCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/CreditCardFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AbstractFactoryDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/sumOf3/SumOf3Algorithm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/SumOf3Algorithm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/sort_algorithms/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/Digraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/DigraphDFS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/ComputeStrongComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/ConnectedComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/Digraph.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/graph/digraph25.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/Outcast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/SAP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/WordNet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/Edge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/EdgeWeightedGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/MinimumSpanningTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/MinimumSpanningTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/KruskalsMST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/LazyPrimsMST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/EagerPrimsMST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/DirectedEdge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/DirectedEdge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/EdgeWeightedDigraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/ShortestPath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/DijkstraSPT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/OrderedDFS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/AcyclicSP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/DijkstraSP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/BellFordSP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/strings/ReconstructItinerary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/strings/ReconstructItinerary_332.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/projects_part2/seam_carving/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/projects_part2/seam_carving/SeamCarver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/trees/WordSearch2_212.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FlowEdge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FlowNetwork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FordFulkersonAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/trees/Binary_Tree_Level_Orde_TraversalII_107.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/Ugly_Number_II_264.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/projects_part2/baseball_elimination/BaseballElimination.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/projects_part2/baseball_elimination/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/strings/KeyIndexSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/strings/LSD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/strings/MSD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/strings/ThreeWayQuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/strings/LongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/Trie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleBoard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/strings/BoyerMoore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/OptimizedTST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleSolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/TNT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/strings/RabinKarp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/strings/SubStringSearch.java" />
       </list>
     </option>
   </component>
@@ -767,6 +759,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -798,14 +791,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgoHomeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgoHomeProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="coursera" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -815,23 +800,58 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="coursera" type="462c0819:PsiDirectoryNode" />
-              <item name="sort_algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgoHomeProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgoHomeProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coursera" type="462c0819:PsiDirectoryNode" />
+              <item name="strings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgoHomeProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgoHomeProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="LongestCom&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.LongestCommonSubstring&#10;LongestR&#9;FILE&#9;jar:///Users/gshein/Documents/repos/AlgoHomeProject/algs4.jar!/edu/princeton/cs/algs4/LongestRepeatedSubstring.java&#10;Longe&#9;FILE&#9;jar:///Users/gshein/Documents/repos/AlgoHomeProject/algs4.jar!/edu/princeton/cs/algs4/LongestRepeatedSubstring.class&#10;Queue&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.Queue" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590342316776" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594840194353" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.36091954" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="coursera.slider_puzzle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="patterns.structural.adapter" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -845,13 +865,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
-    <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.creational.abstractFactory.AbstractFactoryDemo" />
+  <component name="RunManager" selected="Application.RabinKarp">
+    <configuration name="Longest_Duplicate_Substring_1044" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.search.Longest_Duplicate_Substring_1044" />
       <module name="AlgoHomeProject_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.creational.abstractFactory.*" />
+          <option name="PATTERN" value="leetcode.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -859,12 +879,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="books.BubbleSort" />
+    <configuration name="RabinKarp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coursera.strings.RabinKarp" />
       <module name="AlgoHomeProject_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="books.*" />
+          <option name="PATTERN" value="coursera.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -872,12 +892,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.creational.factory.FactoryDemo" />
+    <configuration name="ReconstructItinerary_332" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.strings.ReconstructItinerary_332" />
       <module name="AlgoHomeProject_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.creational.factory.*" />
+          <option name="PATTERN" value="leetcode.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -885,12 +905,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="books.InsertionSort" />
+    <configuration name="SAP" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="coursera.projects_part2.wordnet.SAP" />
       <module name="AlgoHomeProject_main" />
+      <option name="PROGRAM_PARAMETERS" value="/graph/digraph25.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="books.*" />
+          <option name="PATTERN" value="leetcode.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -898,12 +919,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="books.SelectionSort" />
+    <configuration name="WordSearch2_212" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.trees.WordSearch2_212" />
       <module name="AlgoHomeProject_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="books.*" />
+          <option name="PATTERN" value="leetcode.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -912,19 +933,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FactoryDemo" />
-      <item itemvalue="Application.AbstractFactoryDemo" />
-      <item itemvalue="Application.InsertionSort" />
-      <item itemvalue="Application.SelectionSort" />
-      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.Longest_Duplicate_Substring_1044" />
+      <item itemvalue="Application.SAP" />
+      <item itemvalue="Application.ReconstructItinerary_332" />
+      <item itemvalue="Application.WordSearch2_212" />
+      <item itemvalue="Application.RabinKarp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.AbstractFactoryDemo" />
-        <item itemvalue="Application.FactoryDemo" />
+        <item itemvalue="Application.RabinKarp" />
+        <item itemvalue="Application.WordSearch2_212" />
+        <item itemvalue="Application.ReconstructItinerary_332" />
+        <item itemvalue="Application.SAP" />
+        <item itemvalue="Application.Longest_Duplicate_Substring_1044" />
       </list>
     </recent_temporary>
   </component>
@@ -939,18 +960,44 @@
       <option name="presentableId" value="Default" />
       <updated>1589723936100</updated>
       <workItem from="1589723938454" duration="5215000" />
-      <workItem from="1589747592877" duration="31400000" />
+      <workItem from="1589747592877" duration="37435000" />
+      <workItem from="1590521776174" duration="64536000" />
+      <workItem from="1592155850824" duration="40060000" />
+      <workItem from="1593339409503" duration="29927000" />
+      <workItem from="1594565594744" duration="8044000" />
     </task>
+    <task id="LOCAL-00001" summary="structural patterns and some sorts algorithms">
+      <created>1590604632735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590604632735</updated>
+    </task>
+    <task id="LOCAL-00002" summary="leetcode challenge and finishing of Algorithms Part 1">
+      <created>1592331868128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592331868128</updated>
+    </task>
+    <task id="LOCAL-00003" summary="algorithms part 2 : graphs">
+      <created>1593339490840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593339490840</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36615000" />
+    <option name="totallyTimeSpent" value="185217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3319027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -959,8 +1006,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3048193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -970,6 +1017,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -988,435 +1036,509 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="structural patterns and some sorts algorithms" />
+    <MESSAGE value="leetcode challenge and finishing of Algorithms Part 1" />
+    <MESSAGE value="algorithms part 2 : graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="algorithms part 2 : graphs" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/structural/bridge/PrintFormatter.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/coursera/projects_part1/slider_puzzle/SliderPuzzleDemo.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/Cheapest_Flights_Within_K_Stops_787.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/search/Longest_Duplicate_Substring_1044.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/ReconstructItinerary_332.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/ReconstructItinerary_332.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/ReconstructItinerary_332.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>res[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((ArrayList) list).size</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ticket.size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(i).compareTo(ticket.get(1))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(i).compareTo(ticket.get(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/UF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/MinimumSpanningTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/KruskalsMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/LazyPrimsMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/EagerPrimsMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/DirectedEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/ShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3030">
+          <caret line="228" selection-start-line="228" selection-end-line="251" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/DigraphDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/Topological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-388">
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/EdgeWeightedDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/OrderedDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/AcyclicSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/DijkstraSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/BellFordSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/seam_carving/SeamCarver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="201" column="30" selection-start-line="201" selection-start-column="30" selection-end-line="201" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/trees/WordSearch2_212.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FlowEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FlowNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/Ugly_Number_II_264.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/trees/Binary_Tree_Level_Orde_TraversalII_107.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/strings/ReconstructItinerary_332.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-569">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FordFulkersonAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/baseball_elimination/BaseballElimination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/seam_carving/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/collinear_points/BruteCollinearPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1652#1653#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/baseball_elimination/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/collinear_points/LineSegment.java">
+    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/LongestCommonSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-585">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/collinear_points/FastCollinearPoints.java">
+    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/LongestRepeatedSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="87" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-505" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/collinear_points/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="121" column="27" lean-forward="true" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/LongestRepeatedSubstring.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/sigleton/DbSingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/sigleton/DbSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/builder/LunchOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/builder/LunchOrderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/prototype/Registry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="126" selection-start-line="9" selection-start-column="126" selection-end-line="9" selection-end-column="126" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/prototype/PrototypeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/CartPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/AboutPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/Website.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/sort_algorithms/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-          </folding>
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/PostPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/sort_algorithms/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/ContactPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/CommentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/ItemPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/Shop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/WebsiteType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/WebsiteFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/factory/FactoryDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/CardType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/CreditCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexPlatinumCreditCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexGoldCreditCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexPlatinumValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaBlackCreditCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaGoldCreditCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexGoldValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/CreditCardFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AmexFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/VisaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creational/abstractFactory/AbstractFactoryDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="315">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/coursera/find_algorithms/QuickFind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/find_algorithms/QuickUnion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/BinarySearchAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/sort_algorithms/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-          <folding>
-            <element signature="e#2265#2266#0" expanded="true" />
-            <element signature="e#2306#2307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/SumOf3Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/SelectionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="72" />
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/InsertionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5679#5680#0" expanded="true" />
+            <element signature="e#5703#5704#0" expanded="true" />
+            <element signature="e#5815#5816#0" expanded="true" />
+            <element signature="e#5839#5840#0" expanded="true" />
+            <element signature="e#6167#6168#0" expanded="true" />
+            <element signature="e#6201#6202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/OptimizedTST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2847#2848#0" expanded="true" />
+            <element signature="e#2910#2911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="133" column="15" lean-forward="true" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6293#6294#0" expanded="true" />
+            <element signature="e#6336#6337#0" expanded="true" />
+            <element signature="e#7239#8144#0" expanded="true" />
+            <element signature="e#8143#8144#0" expanded="true" />
+            <element signature="e#11308#11935#0" expanded="true" />
+            <element signature="e#11934#11935#0" expanded="true" />
+            <element signature="e#14959#15810#0" expanded="true" />
+            <element signature="e#15809#15810#0" expanded="true" />
+            <element signature="e#40387#40388#0" expanded="true" />
+            <element signature="e#40428#40429#0" expanded="true" />
+            <element signature="e#40896#40897#0" expanded="true" />
+            <element signature="e#40937#40938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/TNT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/LongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/KeyIndexSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/BoyerMoore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/LSD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/MSD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/RabinKarp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/ThreeWayQuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/SubStringSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
