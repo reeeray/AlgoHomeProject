@@ -1,58 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6a7cc97-35cf-47d8-9155-6d35627047be" name="Default Changelist" comment="structural patterns and some sorts algorithms">
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FlowEdge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FlowNetwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/FordFulkersonAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/AcyclicSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/BellFordSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/TNT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/baseball_elimination/BaseballElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/baseball_elimination/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/OptimizedTST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/seam_carving/SeamCarver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/seam_carving/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/BoyerMoore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/KeyIndexSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/LSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/LongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/MSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/RabinKarp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/SubStringSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/strings/ThreeWayQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Ugly_Number_II_264.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/ReconstructItinerary_332.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/trees/Binary_Tree_Level_Orde_TraversalII_107.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/trees/WordSearch2_212.java" afterDir="false" />
+    <list default="true" id="c6a7cc97-35cf-47d8-9155-6d35627047be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/twitter4j_core_4_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/burrows/BurrowsWheeler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/burrows/CircularSuffixArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/burrows/MoveToFront.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/FlyweightInventoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/InventorySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/SecurityProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterServiceStub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/Percolation/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/Percolation/Percolation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/Percolation/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/Percolation/PercolationStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/BruteCollinearPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/collinear_points/BruteCollinearPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/FastCollinearPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/collinear_points/FastCollinearPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/LineSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/collinear_points/LineSegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/collinear_points/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/collinear_points/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/OrderedDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/OrderedDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/DijkstraSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/DijkstraSP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/Outcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/wordnet/Outcast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/SAP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/wordnet/SAP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/WordNet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part2/wordnet/WordNet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/deques_and_randomized_queues/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/deques_and_randomized_queues/Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/deques_and_randomized_queues/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/deques_and_randomized_queues/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/deques_and_randomized_queues/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/deques_and_randomized_queues/RandomizedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/kdtree/KdTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/kdtree/KdTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/kdtree/KdTreeVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/kdtree/KdTreeVisualizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/kdtree/NearestVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/kdtree/NearestVisualizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/kdtree/PointSET.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/kdtree/PointSET.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/kdtree/RangeVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/kdtree/RangeVisualizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/slider_puzzle/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/slider_puzzle/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/slider_puzzle/SliderPuzzleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/slider_puzzle/SliderPuzzleDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coursera/slider_puzzle/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursera/projects_part1/slider_puzzle/Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/coursera/slider_puzzle/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/coursera/projects_part1/slider_puzzle/BoardTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -71,46 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/LSD.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/Catalog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/MSD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/SubStringSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/LongestSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/Trie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="195">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,46 +47,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/ThreeWayQuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/TNT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/RabinKarp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/BoyerMoore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/KeyIndexSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/InventorySystem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/FlyweightInventoryDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="97" selection-start-line="15" selection-start-column="97" selection-end-line="15" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/OptimizedTST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -169,9 +103,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -487,20 +421,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/Digraph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/DigraphDFS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/ComputeStrongComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/ConnectedComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/Digraph.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/graph/digraph25.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/Outcast.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/SAP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/wordnet/WordNet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/Edge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/EdgeWeightedGraph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/MinimumSpanningTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/MinimumSpanningTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/KruskalsMST.java" />
         <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/LazyPrimsMST.java" />
         <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/EagerPrimsMST.java" />
         <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/DirectedEdge.java" />
@@ -538,6 +458,20 @@
         <option value="$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/TNT.java" />
         <option value="$PROJECT_DIR$/src/main/java/coursera/strings/RabinKarp.java" />
         <option value="$PROJECT_DIR$/src/main/java/coursera/strings/SubStringSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/projects_part2/burrows/CircularSuffixArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/projects_part2/burrows/MoveToFront.java" />
+        <option value="$PROJECT_DIR$/src/main/java/coursera/projects_part2/burrows/BurrowsWheeler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/Catalog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/InventorySystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/FlyweightInventoryDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterServiceStub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterServiceImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/SecurityProxy.java" />
       </list>
     </option>
   </component>
@@ -791,7 +725,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="coursera" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgoHomeProject" type="b2602c69:ProjectViewProjectNode" />
@@ -799,8 +733,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="coursera" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structures" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgoHomeProject" type="b2602c69:ProjectViewProjectNode" />
@@ -808,15 +742,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="coursera" type="462c0819:PsiDirectoryNode" />
-              <item name="strings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgoHomeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgoHomeProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -831,11 +759,11 @@
     <property name="SearchEverywhereHistoryKey" value="LongestCom&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.LongestCommonSubstring&#10;LongestR&#9;FILE&#9;jar:///Users/gshein/Documents/repos/AlgoHomeProject/algs4.jar!/edu/princeton/cs/algs4/LongestRepeatedSubstring.java&#10;Longe&#9;FILE&#9;jar:///Users/gshein/Documents/repos/AlgoHomeProject/algs4.jar!/edu/princeton/cs/algs4/LongestRepeatedSubstring.class&#10;Queue&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.Queue" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594840194353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595760749033" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36091954" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -865,13 +793,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RabinKarp">
-    <configuration name="Longest_Duplicate_Substring_1044" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.search.Longest_Duplicate_Substring_1044" />
+  <component name="RunManager" selected="Application.FlyweightInventoryDemo">
+    <configuration name="FlyweightInventoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.structural.flyweight.FlyweightInventoryDemo" />
       <module name="AlgoHomeProject_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.search.*" />
+          <option name="PATTERN" value="patterns.structural.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -933,19 +861,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Longest_Duplicate_Substring_1044" />
       <item itemvalue="Application.SAP" />
       <item itemvalue="Application.ReconstructItinerary_332" />
       <item itemvalue="Application.WordSearch2_212" />
       <item itemvalue="Application.RabinKarp" />
+      <item itemvalue="Application.FlyweightInventoryDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlyweightInventoryDemo" />
         <item itemvalue="Application.RabinKarp" />
         <item itemvalue="Application.WordSearch2_212" />
         <item itemvalue="Application.ReconstructItinerary_332" />
         <item itemvalue="Application.SAP" />
-        <item itemvalue="Application.Longest_Duplicate_Substring_1044" />
       </list>
     </recent_temporary>
   </component>
@@ -964,7 +892,9 @@
       <workItem from="1590521776174" duration="64536000" />
       <workItem from="1592155850824" duration="40060000" />
       <workItem from="1593339409503" duration="29927000" />
-      <workItem from="1594565594744" duration="8044000" />
+      <workItem from="1594565594744" duration="14329000" />
+      <workItem from="1595349985812" duration="2754000" />
+      <workItem from="1595364347090" duration="2122000" />
     </task>
     <task id="LOCAL-00001" summary="structural patterns and some sorts algorithms">
       <created>1590604632735</created>
@@ -987,17 +917,24 @@
       <option name="project" value="LOCAL" />
       <updated>1593339490840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="String algorithms">
+      <created>1594840483998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594840483998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185217000" />
+    <option name="totallyTimeSpent" value="196378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3319027" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34120172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1007,14 +944,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3048193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3048193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.26987952" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32891566" />
@@ -1040,7 +977,8 @@
     <MESSAGE value="structural patterns and some sorts algorithms" />
     <MESSAGE value="leetcode challenge and finishing of Algorithms Part 1" />
     <MESSAGE value="algorithms part 2 : graphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="algorithms part 2 : graphs" />
+    <MESSAGE value="String algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="String algorithms" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1142,111 +1080,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/UF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/MinimumSpanningTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="54" selection-start-column="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/KruskalsMST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/LazyPrimsMST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/mst/EagerPrimsMST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/DirectedEdge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/shortest_path/ShortestPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/EdgeWeightedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3030">
-          <caret line="228" selection-start-line="228" selection-end-line="251" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/undirected/EdgeWeightedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/DigraphDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/Digraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/Topological.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4/DepthFirstOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <caret line="59" column="36" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/EdgeWeightedDigraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/graph/directed/OrderedDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
@@ -1300,11 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,6 +1140,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1399,39 +1234,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/BoggleBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5679#5680#0" expanded="true" />
-            <element signature="e#5703#5704#0" expanded="true" />
-            <element signature="e#5815#5816#0" expanded="true" />
-            <element signature="e#5839#5840#0" expanded="true" />
-            <element signature="e#6167#6168#0" expanded="true" />
-            <element signature="e#6201#6202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/OptimizedTST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1439,11 +1246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2847#2848#0" expanded="true" />
-            <element signature="e#2910#2911#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1451,21 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="133" column="15" lean-forward="true" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6293#6294#0" expanded="true" />
-            <element signature="e#6336#6337#0" expanded="true" />
-            <element signature="e#7239#8144#0" expanded="true" />
-            <element signature="e#8143#8144#0" expanded="true" />
-            <element signature="e#11308#11935#0" expanded="true" />
-            <element signature="e#11934#11935#0" expanded="true" />
-            <element signature="e#14959#15810#0" expanded="true" />
-            <element signature="e#15809#15810#0" expanded="true" />
-            <element signature="e#40387#40388#0" expanded="true" />
-            <element signature="e#40428#40429#0" expanded="true" />
-            <element signature="e#40896#40897#0" expanded="true" />
-            <element signature="e#40937#40938#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1479,10 +1266,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/coursera/data_structures/tries/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1503,28 +1287,28 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/BoyerMoore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/LSD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/MSD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-111">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/RabinKarp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="795">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -1538,7 +1322,135 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/coursera/strings/SubStringSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="971" column="21" lean-forward="true" selection-start-line="971" selection-start-column="21" selection-end-line="971" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/burrows/CircularSuffixArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/burrows/MoveToFront.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/burrows/BurrowsWheeler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/Catalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/InventorySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursera/projects_part2/boggle/OptimizedTST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="97" selection-start-line="15" selection-start-column="97" selection-end-line="15" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/proxy/SecurityProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterServiceStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/proxy/TwitterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/FlyweightInventoryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1571,10 +1483,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>twitter4j-core-4.0.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36091954" />
               </list>
             </option>
           </splitter-proportions>
@@ -1586,7 +1499,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36091954" />
               </list>
             </option>
           </splitter-proportions>
@@ -1594,11 +1507,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AlgoHomeProject</last-edited>
+          <last-edited>AlgoHomeProject_main|AlgoHomeProject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.36091954" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1617,7 +1531,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>algs4</last-edited>
+          <last-edited>twitter4j-core-4.0.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
