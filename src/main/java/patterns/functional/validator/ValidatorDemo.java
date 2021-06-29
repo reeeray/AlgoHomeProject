@@ -1,9 +1,7 @@
 package patterns.functional.validator;
 
-import edu.princeton.cs.algs4.In;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 
 /**
@@ -18,7 +16,6 @@ public class ValidatorDemo {
         Person misha = new Person("Michail", 256);
         Person ksu = new Person(null, 1_000);
         List<Integer> list = new ArrayList<>();
-        Integer.va
 
         anya = Validator.validate(p -> p.getName() != null, "The name should not be null")
                         .on(anya)
