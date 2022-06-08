@@ -43,15 +43,10 @@ public class MergeSortedArray_88 {
 
         int indexN = 0;
 
-        for (int i = 0; i < nums1.length; i++) {
+        for (int i = 0; i < m; i++) {
             final int val1 = nums1[i];
             final int val2 = nums2[indexN];
-            if (i == m) {
-                for (int j = i; j < nums1.length; j++) {
-                    nums1[j] = nums2[indexN++];
-                }
-                return;
-            }
+
             if (val2 < val1) {
                 final int val = nums1[i];
                 nums1[i] = nums2[indexN];
