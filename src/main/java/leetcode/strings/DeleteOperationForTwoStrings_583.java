@@ -24,6 +24,7 @@ public class DeleteOperationForTwoStrings_583 {
             for (int j = 0; j <= s2.length(); j++) {
                 if (i == 0 || j == 0)
                     dp[i][j] = i + j;
+
                 else if (s1.charAt(i - 1) == s2.charAt(j - 1))
                     dp[i][j] = dp[i - 1][j - 1];
                 else
