@@ -10,32 +10,32 @@ public class TwoStringsArrEq_1662 {
         final String[] input1 = {"abc", "d", "defg"};
         final String[] input2 = {"abcddefg"};
 
-        assert areArrayStringsEqual(input1, input2) == true;
+//        assert areArrayStringsEqual(input1, input2) == true;
         assert areArrayStringEqualsOpt(input1, input2) == true;
 
     }
 
 
-    /**
-     * Solution 1. Not optimal.
-     * @param words1
-     * @param words2
-     * @return
-     */
-    private static boolean areArrayStringsEqual(final String[] words1, final String[] words2) {
-        final StringBuilder sb1 = new StringBuilder();
-        final StringBuilder sb2 = new StringBuilder();
-
-        for(final String word : words1) {
-            sb1.append(word);
-        }
-
-        for(final String word : words2) {
-            sb2.append(word);
-        }
-
-        return sb1.compareTo(sb2) == 0;
-    }
+//    /**
+//     * Solution 1. Not optimal.
+//     * @param words1
+//     * @param words2
+//     * @return
+//     */
+//    private static boolean areArrayStringsEqual(final String[] words1, final String[] words2) {
+//        final StringBuilder sb1 = new StringBuilder();
+//        final StringBuilder sb2 = new StringBuilder();
+//
+//        for(final String word : words1) {
+//            sb1.append(word);
+//        }
+//
+//        for(final String word : words2) {
+//            sb2.append(word);
+//        }
+//
+//        return sb1.compareTo(sb2) == 0;
+//    }
 
     private static boolean areArrayStringEqualsOpt(final String[] words1, final String[] words2) {
         int wordPointer1 = 0, wordPointer2 = 0;
