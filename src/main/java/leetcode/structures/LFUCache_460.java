@@ -26,8 +26,20 @@ public class LFUCache_460 {
     }
 
     public int get(final int key) {
+        final Pair freqAndValue = cache.get(key);
+        if(freqAndValue == null) {
+            return -1;
+        }
 
+        final int freq = freqAndValue.getKey();
+        final Set<Integer> keysForThisFreq = frequencies.get(freq);
+        keysForThisFreq.remove(key);
 
+        if(minFrequency == freq && keysForThisFreq.isEmpty()) {
+            minFrequency++;
+        }
+        insert(key, freq+1, freqAndValue.getValue());
+        return freqAndValue.getValue();
 
     }
 
