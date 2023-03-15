@@ -16,7 +16,7 @@ public class CheckCompletenessOfBinaryTree_958 {
 
     }
 
-    public static boolean isCompleteTree(final TreeNode root) {
+    public static boolean isCompleteTreeBFS(final TreeNode root) {
         final Queue<TreeNode> nodes = new LinkedList<>();
         nodes.offer(root);
         while (!nodes.isEmpty()) {
