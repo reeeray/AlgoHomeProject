@@ -45,7 +45,7 @@ public class CheckCompletenessOfBinaryTree_958 {
             return true;
 
         // Create a queue to store the nodes of the tree in level order
-        Queue<TreeNode> q = new LinkedList<>(Arrays.asList(root);
+        Queue<TreeNode> q = new LinkedList<>(Arrays.asList(root));
 
         // Traverse the tree in level order
         while (q.peek() != null) {
