@@ -1,6 +1,5 @@
 package leetcode.collections;
 
-import patterns.creational.factory.Page;
 
 import java.util.HashMap;
 import java.util.Map;
