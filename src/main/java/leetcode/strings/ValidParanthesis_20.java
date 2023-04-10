@@ -15,20 +15,16 @@ public class ValidParanthesis_20 {
 
     public static boolean isValid(String s) {
         final Stack<Character> stack = new Stack<>();
-        final char[] chars = s.toCharArray();
-        for (char c : chars) {
+        for (char c : s.toCharArray()) {
             if (c == '(' || c == '{' || c == '[') {
                 stack.push(c);
             } else {
                 if (stack.isEmpty())
                     return false;
                 final char character = stack.pop();
-                if (c == ')' && character == '(')
-                    continue;
-                if (c == '}' && character == '{')
-                    continue;
-                if (c == ']' && character == '[')
-                    continue;
+                if (c == ')' && character == '(') continue;
+                if (c == '}' && character == '{') continue;
+                if (c == ']' && character == '[') continue;
                 return false;
             }
         }
