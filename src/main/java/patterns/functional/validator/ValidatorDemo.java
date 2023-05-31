@@ -23,7 +23,7 @@ public class ValidatorDemo {
 
         System.out.println(anya);
 
-//        peter = Validator.validate(p -> p.getName() != null, "The name should not be null")
+//        peter = Validator.validate(p -> p.getLeft() != null, "The name should not be null")
 //                .on(peter)
 //                .validate();
 //
