@@ -45,7 +45,7 @@ public class FairDistribOfCookies_2305 {
             children[i] += cookies[index];
 
             // Recursively distribute the next cookie.
-            ans = Math.max(ans, dfs(index + 1, cookies, children, withoutCookies));
+            ans = Math.min(ans, dfs(index + 1, cookies, children, withoutCookies));
 
             //backtracking
             children[i] -= cookies[index];
