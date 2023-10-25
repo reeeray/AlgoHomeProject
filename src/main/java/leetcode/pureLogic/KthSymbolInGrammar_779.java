@@ -14,7 +14,7 @@ public class KthSymbolInGrammar_779 {
 
     //My own algo : O(2n) and Space O(nmax)
     public static int kthGrammar(final int n, final int k) {
-        final int[] levels = new int[31];
+        final int[] levels = new int[n+1];
         levels[n] = k;
         for(int i=n-1; i>0; i--) {
             final int prevK = levels[i+1];
