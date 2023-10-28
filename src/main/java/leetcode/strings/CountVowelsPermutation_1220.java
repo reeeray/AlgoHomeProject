@@ -1,5 +1,7 @@
 package leetcode.strings;
 
+import java.util.*;
+
 /**
  * 1220. Count Vowels Permutation.
  * <p>
@@ -18,8 +20,12 @@ package leetcode.strings;
  **/
 public class CountVowelsPermutation_1220 {
 
+    private static int count = 0;
+    private static final int MOD = (int) (1e9 + 7);
+
     public static void main(String[] args) {
         assert countVowelPermutation(5) == 68;
+        System.out.println(coundVowelPermutation(5));
         System.out.println(countVowelPermutation(5));
     }
 
@@ -36,9 +42,10 @@ public class CountVowelsPermutation_1220 {
                 {0} // means that 'u' can be followed only by 'a'
         };
 
-        for (int i = 0; i < 5; i++) {
-            dp[1][i] = 1;
-        }
+//        for (int i = 0; i < 5; i++) {
+//            dp[1][i] = 1;
+//        }
+        Arrays.fill(dp[1], 1);
 
         for (int i = 1; i < n; i++) {
             for (int j = 0; j < 5; j++) {
@@ -54,5 +61,33 @@ public class CountVowelsPermutation_1220 {
             res = (res + dp[n][i]) % MOD;
         }
         return (int) res;
+    }
+
+    //TLE
+    private static int coundVowelPermutation(final int n) {
+        count =0;
+        final Map<Character, char[]> rules = new HashMap<>();
+        rules.put('a', new char[] {'e'});
+        rules.put('e', new char[] {'a', 'i'});
+        rules.put('i', new char[] {'a', 'e', 'o', 'u'});
+        rules.put('o', new char[] {'i', 'u'});
+        rules.put('u', new char[] {'a'});
+        dfs('a', 1, n, rules);
+        dfs('e', 1, n, rules);
+        dfs('i', 1, n, rules);
+        dfs('o', 1, n, rules);
+        dfs('u', 1, n, rules);
+        return count;
+    }
+
+    private static void dfs(final char current, final int leng, final int limit, final Map<Character, char[]> rules) {
+        if(leng == limit) {
+            count = (count + 1) % MOD;
+            return;
+        }
+
+        for(final char c : rules.get(current)) {
+            dfs(c, leng+1, limit, rules);
+        }
     }
 }
