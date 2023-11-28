@@ -123,4 +123,5 @@ public class NumberOfWaysToDivideLongCorridor_2147 {
 
         // Return the result
         return zero;
+    }
 }
