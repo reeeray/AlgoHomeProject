@@ -16,47 +16,44 @@ public class TwoStringsArrEq_1662 {
     }
 
 
-//    /**
-//     * Solution 1. Not optimal.
-//     * @param words1
-//     * @param words2
-//     * @return
-//     */
-//    private static boolean areArrayStringsEqual(final String[] words1, final String[] words2) {
-//        final StringBuilder sb1 = new StringBuilder();
-//        final StringBuilder sb2 = new StringBuilder();
-//
-//        for(final String word : words1) {
-//            sb1.append(word);
-//        }
-//
-//        for(final String word : words2) {
-//            sb2.append(word);
-//        }
-//
-//        return sb1.compareTo(sb2) == 0;
-//    }
+    /**
+     * Solution 1. Runtime optimum but not space.
+     * @param words1
+     * @param words2
+     * @return
+     */
+    private static boolean areArrayStringsEqual(final String[] words1, final String[] words2) {
+        final StringBuilder sb1 = new StringBuilder();
+        final StringBuilder sb2 = new StringBuilder();
 
-    private static boolean areArrayStringEqualsOpt(final String[] words1, final String[] words2) {
-        int wordPointer1 = 0, wordPointer2 = 0;
-        int letterPointer1 = 0, letterPointer2 = 0;
-
-        while(wordPointer1 < words1.length && wordPointer2 <words2.length) {
-            if(words1[wordPointer1].charAt(letterPointer1++) != words2[wordPointer2].charAt(letterPointer2++)) {
-                return false;
-            }
-
-            if(letterPointer1 == words1[wordPointer1].length()) {
-                wordPointer1++;
-                letterPointer1 = 0;
-            }
-
-            if(letterPointer2 == words2[wordPointer2].length()) {
-                wordPointer2++;
-                letterPointer2 = 0;
-            }
+        for(final String word : words1) {
+            sb1.append(word);
         }
 
-        return wordPointer1 == words1.length && wordPointer2 == words2.length;
+        for(final String word : words2) {
+            sb2.append(word);
+        }
+
+        return sb1.compareTo(sb2) == 0;
+    }
+
+    //Space optimum
+    private static boolean areArrayStringEqualsOpt(final String[] word1, final String[] word2) {
+        int wordIndex1 = 0, wordIndex2 = 0;
+        int index1 = 0, index2 = 0;
+        while(wordIndex1 < word1.length && wordIndex2 < word2.length) {
+            if(word1[wordIndex1].charAt(index1++) != word2[wordIndex2].charAt(index2++)) {
+                return false;
+            }
+            if(word1[wordIndex1].length() == index1) {
+                wordIndex1++;
+                index1 = 0;
+            }
+            if(word2[wordIndex2].length() == index2) {
+                wordIndex2++;
+                index2 = 0;
+            }
+        }
+        return wordIndex1 == word1.length && wordIndex2 == word2.length;
     }
 }
