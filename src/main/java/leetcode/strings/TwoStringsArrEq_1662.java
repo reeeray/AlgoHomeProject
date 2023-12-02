@@ -16,26 +16,26 @@ public class TwoStringsArrEq_1662 {
     }
 
 
-    /**
-     * Solution 1. Runtime optimum but not space.
-     * @param words1
-     * @param words2
-     * @return
-     */
-    private static boolean areArrayStringsEqual(final String[] words1, final String[] words2) {
-        final StringBuilder sb1 = new StringBuilder();
-        final StringBuilder sb2 = new StringBuilder();
-
-        for(final String word : words1) {
-            sb1.append(word);
-        }
-
-        for(final String word : words2) {
-            sb2.append(word);
-        }
-
-        return sb1.compareTo(sb2) == 0;
-    }
+//    /**
+//     * Solution 1. Runtime optimum but not space.
+//     * @param words1
+//     * @param words2
+//     * @return
+//     */
+//    private static boolean areArrayStringsEqual(final String[] words1, final String[] words2) {
+//        final StringBuilder sb1 = new StringBuilder();
+//        final StringBuilder sb2 = new StringBuilder();
+//
+//        for(final String word : words1) {
+//            sb1.append(word);
+//        }
+//
+//        for(final String word : words2) {
+//            sb2.append(word);
+//        }
+//
+//        return sb1.compareTo(sb2) == 0;
+//    }
 
     //Space optimum
     private static boolean areArrayStringEqualsOpt(final String[] word1, final String[] word2) {
