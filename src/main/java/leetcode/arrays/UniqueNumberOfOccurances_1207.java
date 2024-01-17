@@ -16,6 +16,7 @@ public class UniqueNumberOfOccurances_1207 {
         assert Boolean.TRUE == uniqueOccurrences(input);
     }
 
+    //Time O(n) and Space O(n)
     private static boolean uniqueOccurrences(final int[] arr) {
         final Map<Integer, Integer> occurrences = new HashMap<>();
         for(int val : arr) {
