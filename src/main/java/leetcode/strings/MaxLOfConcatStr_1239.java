@@ -1,5 +1,6 @@
 package leetcode.strings;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -9,37 +10,32 @@ import java.util.List;
  **/
 public class MaxLOfConcatStr_1239 {
 
-    private static int max = 0;
-    private static List<String> stringArr;
+    int max = 0;
+    List<String> list = new ArrayList<>();
 
-    public static void main(String[] args) {
-        final List<String> input = Arrays.asList("cha", "r", "act", "ers");
-        assert maxLength(input) == 6;
-    }
-
-    private static int maxLength(final List<String> arr) {
-        stringArr = arr;
+    //backtrack means DFS basically, Time complexity if O(2^M) and Space complexity is O(M) where M is the max length of a string in array
+    public int maxLength(final List<String> arr) {
+        list = arr;
         backTrack("", 0);
         return max;
     }
 
-    private static void backTrack(final String str, final int index) {
+    private void backTrack(final String str, final int index) {
         if(max < str.length()) {
             max = str.length();
         }
 
-        for(int i=index; i<stringArr.size(); i++) {
-            if(!isUnique(str, stringArr.get(i))) continue;
-            backTrack(str + stringArr.get(i), i+1);
+        for(int i=index; i<list.size(); i++) {
+            if(!isUnique(str, list.get(i))) continue;
+            backTrack(str + list.get(i), i + 1);
         }
     }
 
-
-    private static boolean isUnique(final String template, final String seq) {
-        final int[] alfabet = new int[26];
-        for(char c : seq.toCharArray()) {
-            if(++alfabet[c - 'a'] == 2) return false;
-            if(template.contains(c + "")) return false;
+    private boolean isUnique(final String sequence, final String addition) {
+        final int[] alphabet = new int[26];
+        for(char c : addition.toCharArray()) {
+            if(sequence.contains("" + c)) return false;
+            if(++alphabet[c - 'a'] == 2) return false;
         }
         return true;
     }
