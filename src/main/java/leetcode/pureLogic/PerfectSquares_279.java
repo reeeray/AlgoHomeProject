@@ -13,6 +13,7 @@ public class PerfectSquares_279 {
 
     }
 
+    //
     private static int numSquares(final int n) {
         final int[] dp = new int [n+1];
         Arrays.fill(dp, Integer.MAX_VALUE);
@@ -27,7 +28,8 @@ public class PerfectSquares_279 {
         return dp[n];
     }
 
-    private static int numSquaresEff(final int n) {
+    //it's not more rfficient, it's TLE
+    private static int numSquaresTLE(final int n) {
         if(n == 0)
             return 0;
         int mult = 1;
@@ -41,7 +43,7 @@ public class PerfectSquares_279 {
         for(int i=mult; i>0; i--) {
             if(i*i == n)
                 return 1;
-            steps = Math.min(steps, 1 +  numSquaresEff(n-i*i));
+            steps = Math.min(steps, 1 +  numSquaresTLE(n-i*i));
         }
         return steps;
     }
