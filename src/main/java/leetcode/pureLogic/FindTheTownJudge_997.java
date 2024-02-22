@@ -46,4 +46,18 @@ public class FindTheTownJudge_997 {
         }
         return -1;
     }
+
+    public static int findTheTownJudgeOpt(final int n, final int[][] trust) {
+        final int[] fund = new int[n+1];
+        for(int[] t : trust) {
+            fund[t[0]]--;
+            fund[t[1]]++;
+        }
+        for(int i=1; i<fund.length; i++) {
+            if(fund[i] == n - 1) {
+                return i;
+            }
+        }
+        return -1;
+    }
 }
