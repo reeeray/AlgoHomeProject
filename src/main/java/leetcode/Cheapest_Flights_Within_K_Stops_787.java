@@ -1,6 +1,8 @@
 package leetcode;
 
-import java.util.Arrays;
+import leetcode.structures.Pair;
+
+import java.util.*;
 
 /**
  * 787 : Cheapest Flights Within K Stops
@@ -60,4 +62,34 @@ public class Cheapest_Flights_Within_K_Stops_787 {
 //        }
 //        return -1;
 //    }
+
+    public int findCheapestPriceLessEfficient(final int n, final int[][] flights, final int src, final int dst, final int k) {
+        final Map<Integer, List<Pair<Integer, Integer>>> directions = new HashMap<>();
+        for(final int[] flight : flights) {
+            directions.computeIfAbsent(flight[0], v -> new ArrayList()).add(new Pair<>(flight[1], flight[2]));
+        }
+        final int[] costs = new int[n];
+        Arrays.fill(costs, Integer.MAX_VALUE);
+        final Queue<Integer> airports = new LinkedList<>();
+        airports.add(src);
+        costs[src] = 0;
+        int changes = k;
+        while (changes <= k && !airports.isEmpty()) {
+            int nIter = airports.size();
+            while (nIter-- > 0) {
+                final int airport = airports.poll();
+                if(directions.get(airport) == null) {
+                    continue;
+                }
+                for(final Pair<Integer, Integer> neighbor : directions.get(airport)) {
+                    if(costs[neighbor.getLeft()] > costs[airport] + neighbor.getRight()) {
+                      costs[neighbor.getLeft()] = costs[airport] + neighbor.getRight();
+                      airports.add(neighbor.getLeft());
+                    }
+                }
+            }
+            changes++;
+        }
+        return costs[dst] == Integer.MAX_VALUE ? -1 : costs[dst];
+    }
 }
