@@ -16,7 +16,7 @@ public class DepthFirstPaths {
     private int s;
 
     public DepthFirstPaths(final Graph graph, final int s) {
-        //initialize Graph
+        //initialize Graph_2642
         dfs(graph, s); //find vertices connected to s
     }
 

@@ -13,6 +13,7 @@ public class LargestOddNumberInString_1903 {
 
     public static String largestOddNumber(final String num) {
         for(int i=num.length()-1; i >= 0; i--) {
+//            Character.getNumericValue(num.charAt(i));
             if(Integer.valueOf(num.charAt(i) - 48) % 2 != 0) {
                 return num.substring(0, i+1);
             }
