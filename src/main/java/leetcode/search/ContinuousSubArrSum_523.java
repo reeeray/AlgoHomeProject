@@ -34,4 +34,22 @@ public class ContinuousSubArrSum_523 {
         }
         return false;
     }
+
+    //Time O(n) and Space O(n)
+    public static boolean checkSubarraySum(final int[] nums, final int k) {
+        final Map<Integer, Integer> indexesVSLeft = new HashMap<>();
+        indexesVSLeft.put(0, -1);
+        int sum = 0;
+        for(int i=0; i<nums.length; i++) {
+            sum += nums[i];
+            if(indexesVSLeft.get(sum % k) == null) {
+                indexesVSLeft.put(sum % k, i);
+            } else {
+                if(i - indexesVSLeft.get(sum % k) > 1) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
