@@ -42,13 +42,13 @@ public class IntersectionOfTwoArrays2_350 {
         for(int val : biggest) {
             storage[val]++;
         }
-        final List<Integer> answ = new ArrayList<>();
+        int k =0;
         for(int val : smallest) {
             if(storage[val]-- > 0) {
-                answ.add(val);
+                biggest[k++] = val;
             }
         }
-        return answ.stream().mapToInt(i -> i).toArray();
+        return Arrays.copyOfRange(biggest, 0, k);
     }
 
     //Time O(nlogn + mlogm) and Space O(1)
