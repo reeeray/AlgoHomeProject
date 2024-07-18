@@ -3,17 +3,19 @@ package leetcode.structures;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 /**
  * User : Shein G.A.{@reeeray}
  * Date : 16.02.2023
  **/
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class TreeNode {
 
-    private int val;
+    public int val;
     public TreeNode left;
     public TreeNode right;
 
