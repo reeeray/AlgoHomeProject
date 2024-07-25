@@ -1,5 +1,7 @@
 package leetcode.arrays;
 
+import leetcode.structures.Pair;
+
 import java.util.Arrays;
 
 /**
@@ -15,39 +17,55 @@ public class SortAnArray_912 {
     }
 
     public static int[] mergeSort(final int[] array) {
-        final int p = 0, r = array.length - 1;
-        if(p >= r) {
+        final int left = 0;
+        final int right = array.length - 1;
+        if(left >= right) {
             return array;
         }
-
-        final int q = (p + r)/2;
-        final int[] sortedSubArr1 = mergeSort(Arrays.copyOfRange(array, p, q+1));
-        final int[] sortedSubArr2 = mergeSort(Arrays.copyOfRange(array, q+1, r+1));
-        return merge(sortedSubArr1, sortedSubArr2);
+        final int mid = (left + right) / 2;
+        final int[] leftHalf = mergeSort(Arrays.copyOfRange(array, left, mid + 1));
+        final int[] rightHalf = mergeSort((Arrays.copyOfRange(array, mid + 1, right + 1)));
+        return merge(leftHalf, rightHalf);
     }
 
-    public static int[] merge(final int[] arr1, final int[] arr2) {
-        final int[] arr = new int[arr1.length + arr2.length];
-        int p1 = 0;
-        int p2 = 0;
-        for(int i=0; i<arr.length; i++) {
-            if(p1 < arr1.length && p2 < arr2.length) {
-                if(arr1[p1] < arr2[p2]) {
-                    arr[i] = arr1[p1++];
+    //Time O(nlog) and Space O(n)
+    private static int[] merge(final int[] left, final int[] right) {
+        final int[] res = new int[left.length + right.length];
+        int p1 = 0, p2 = 0;
+        for(int i=0; i<res.length; i++) {
+            if(left.length > p1 && right.length > p2) {
+                if(left[p1] < right[p2]) {
+                    res[i] = left[p1++];
                 } else {
-                    arr[i] = arr2[p2++];
+                    res[i] = right[p2++];
                 }
             } else {
-                if(p1 >= arr1.length) {
-                    System.arraycopy(arr2, p2, arr, i, arr2.length - p2);
+                if(left.length > p1) {
+                    System.arraycopy(left, p1, res, i, left.length - p1);
                     break;
                 } else {
-                    System.arraycopy(arr1, p1, arr, i, arr1.length - p1);
+                    System.arraycopy(right, p2, res, i, right.length - p2);
                     break;
                 }
             }
         }
-        return arr;
+        return res;
+    }
+
+    //Time O(n) and Space O(1) but it's only because of constraints on number of elements which is -5*10^4 to 5*10^4
+    public int[] sortArray(final int[] nums) {
+        final int[] counts = new int[2 * 50000 + 1];
+        for (int num : nums) {
+            counts[num + 50000]++;
+        }
+        int idx = 0;
+        for (int n = 0; n < counts.length; n++) {
+            int count = counts[n];
+            while (count-- != 0) {
+                nums[idx++] = n - 50000;
+            }
+        }
+        return nums;
     }
 
 
