@@ -26,42 +26,39 @@ public class MinDelTomakeStringBalanced_1653 {
     }
 
     //optimized DP Space O(n) and Time O(n)
-    public static int minimumDeletions(String s) {
-        int n = s.length();
-        int[] dp = new int[n + 1];
-        int bCount = 0;
+    public static int minimumDeletions(final String s) {
+        final int[] dp = new int[s.length() + 1];
+        int bs = 0;
 
         // dp[i]: The number of deletions required to
         // balance the substring s[0, i)
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == 'b') {
                 dp[i + 1] = dp[i];
-                bCount++;
+                bs++;
             } else {
                 // Two cases: remove 'a' or keep 'a'
-                dp[i + 1] = Math.min(dp[i] + 1, bCount);
+                dp[i + 1] = Math.min(dp[i] + 1, bs);
             }
         }
 
-        return dp[n];
+        return dp[s.length()];
     }
 
     //Optimized DP Time O(n) and Space O(1)
-    public static int minimumDeletionsOpt(String s) {
-        int n = s.length();
+    public static int minimumDeletionsOpt(final String s) {
         int minDeletions = 0;
-        int bCount = 0;
+        int bs = 0;
 
         // minDeletions variable represents dp[i]
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == 'b') {
-                bCount++;
+                bs++;
             } else {
                 // Two cases: remove 'a' or keep 'a'
-                minDeletions = Math.min(minDeletions + 1, bCount);
+                minDeletions = Math.min(minDeletions + 1, bs);
             }
         }
-
         return minDeletions;
     }
 }
