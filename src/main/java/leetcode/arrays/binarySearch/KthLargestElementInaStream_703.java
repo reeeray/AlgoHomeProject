@@ -17,6 +17,7 @@ public class KthLargestElementInaStream_703 {
         }
     }
 
+    //Space O(k) and Time(O((n+m)*logk)
     private final PriorityQueue<Integer> storage;
     private final int k;
 
@@ -35,11 +36,10 @@ public class KthLargestElementInaStream_703 {
     public int add(final int val) {
         if(storage.size() < k) {
             storage.add(val);
-        } else {
-            if(storage.peek() <= val) {
-                storage.add(val);
+        } else if (storage.peek() <= val){
                 storage.poll();
-            }
+                storage.add(val);
+
         }
         return storage.peek();
     }
