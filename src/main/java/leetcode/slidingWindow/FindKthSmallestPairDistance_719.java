@@ -18,7 +18,7 @@ public class FindKthSmallestPairDistance_719 {
         int left = 0;
         int right = nums[nums.length - 1] - nums[0];
 
-        while (left <= right) {
+        while (left < right) {
             final int mid = (left + right) / 2;
             if(count(nums, mid) < k) {
                 left = mid + 1;
