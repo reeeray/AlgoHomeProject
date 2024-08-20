@@ -10,6 +10,7 @@ public class StoneGame2_1140 {
 
     }
 
+    //Time O(n^3) and Space O(n^2)
     public int stoneGame(final int[] piles) {
         if(piles.length == 0) return 0;
         final int n = piles.length;
