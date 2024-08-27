@@ -15,6 +15,7 @@ public class PathWithMaxProbability_1514 {
 
     }
 
+    //Time O(n*m) where n number of nodes, m - number of edges. Space O(n + m)
     public double maxProbability(final int n, final int[][] edges, final double[] succProb, final int start, final int end) {
         final Map<Integer, List<Pair<Integer, Double>>> graph = new HashMap<>();
         for(int i=0; i<edges.length; i++) {
