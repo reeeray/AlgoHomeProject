@@ -72,4 +72,5 @@ public class PathWithMaxProbability_1514 {
 
         // Return the maximum probability to reach the end node
         return maxProb[end_node];
+    }
 }
