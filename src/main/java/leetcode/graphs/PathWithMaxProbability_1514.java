@@ -32,11 +32,11 @@ public class PathWithMaxProbability_1514 {
             if(curr.getLeft() == end) {
                 return curr.getRight();
             }
-            for(final Pair<Integer, Double> neigbour : graph.getOrDefault(curr.getLeft(), new ArrayList<>())) {
-                final Double prob = curr.getRight() * neigbour.getRight();
-                if(prob > maxProbability[neigbour.getLeft()]) {
-                    maxProbability[neigbour.getLeft()] = prob;
-                    queue.offer(new Pair<>(neigbour.getLeft(), maxProbability[neigbour.getLeft()]));
+            for(final Pair<Integer, Double> neighbor : graph.getOrDefault(curr.getLeft(), new ArrayList<>())) {
+                final Double prob = curr.getRight() * neighbor.getRight();
+                if(prob > maxProbability[neighbor.getLeft()]) {
+                    maxProbability[neighbor.getLeft()] = prob;
+                    queue.offer(new Pair<>(neighbor.getLeft(), maxProbability[neighbor.getLeft()]));
                 }
             }
         }
