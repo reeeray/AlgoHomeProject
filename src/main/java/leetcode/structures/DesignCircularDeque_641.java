@@ -11,6 +11,7 @@ public class DesignCircularDeque_641 {
     int size;
     int capacity;
 
+    //Time O(1) and Space O(n) n max number of nodes in linkedlist
     public DesignCircularDeque_641(final int k) {
         size = 0;
         capacity = k;
