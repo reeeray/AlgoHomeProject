@@ -24,9 +24,9 @@ public class DivideIntervalsIntoMinNumberOfGroups_2406 {
 
         Collections.sort(events, (a, b) -> {
             if(a[0] == b[0]) {
-                return Integer.compare(a[1], a[1]);
+                return Integer.compare(a[1], b[1]);
             }
-            return Integer.compare(a[0], a[0]);
+            return Integer.compare(a[0], b[0]);
         });
 
         int intersectedIntervals = 0;
