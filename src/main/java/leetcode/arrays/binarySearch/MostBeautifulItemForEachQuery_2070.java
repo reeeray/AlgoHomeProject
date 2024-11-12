@@ -1,4 +1,4 @@
-package leetcode.arrays;
+package leetcode.arrays.binarySearch;
 
 import java.util.*;
 
@@ -52,7 +52,7 @@ public class MostBeautifulItemForEachQuery_2070 {
         return key == - 1 ? -1 : keys[key];
     }
 
-    //Time O((m+n)logm) and Space O(logM) where 
+    //Time O((m+n)logm) and Space O(logM) where m size of items
     public int[] maximumBeautyOpt(int[][] items, int[] queries) {
         int[] ans = new int[queries.length];
 
