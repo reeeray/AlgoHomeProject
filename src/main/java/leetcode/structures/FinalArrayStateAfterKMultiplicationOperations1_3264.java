@@ -13,7 +13,7 @@ public class FinalArrayStateAfterKMultiplicationOperations1_3264 {
 
     }
 
-    //Time O(n*k) and Space O(1)
+    //Time O(n*k) and Space O(1) constant
     public static int[] getFincalStateBruteForce(final int[] nums, final int k, final int multiplier) {
         for(int i=0; i<k; i++) {
             int x = 0;
