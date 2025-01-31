@@ -36,8 +36,8 @@ public class MakingALargeIsland_827 {
         }
         // If the entire grid is one island, return its size or size + 1
         if (islandSizes.size() == 1) {
-            return (islandSizes.get(0) == grid.length * grid[0].length)
-                    ? islandSizes.get(0) : islandSizes.get(islandId) + 1;
+            return (islandSizes.get(2) == grid.length * grid[0].length)
+                    ? islandSizes.get(2) : islandSizes.get(2) + 1;
         }
 
         int maxIslandSize = 1;
@@ -49,7 +49,7 @@ public class MakingALargeIsland_827 {
                     int currentIslandSize = 1;
                     final Set<Integer> neighboringIslands = new HashSet<>();
                     // Check down
-                    if (col + 1 < grid.length && grid[row + 1][col] > 1) {
+                    if (row + 1 < grid.length && grid[row + 1][col] > 1) {
                         neighboringIslands.add(grid[row + 1][col]);
                     }
 
