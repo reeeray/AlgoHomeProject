@@ -1,4 +1,4 @@
-package leetcode.strings;
+package leetcode.dp;
 
 /**
  * User : Shein G.A.{@reeeray}
