@@ -1,4 +1,4 @@
-package leetcode.slidingWindow;
+package leetcode.pureLogic;
 
 /**
  * User : Shein G.A.{@reeeray}
