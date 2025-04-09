@@ -1,4 +1,4 @@
-package leetcode.arrays;
+package leetcode.dp;
 
 /**
  * User : Shein G.A.{@reeeray}
@@ -36,6 +36,7 @@ public class MaxNumberOfPointsWithCost_1937 {
         for (int col = 0; col < n; ++col) {
             previousRow[col] = points[0][col];
         }
+
 
         // Process each row
         for (int row = 0; row < m - 1; ++row) {

@@ -14,7 +14,7 @@ public class ClearDigits_3174 {
     public static String clearDigits(final String s) {
         final StringBuilder sb = new StringBuilder();
         for(final char c : s.toCharArray()) {
-            if(c >= '0' && c <= '9' && !sb.isEmpty()) {
+            if(c >= '0' && c <= '9' && sb.length() != 0) {
                 sb.deleteCharAt(sb.length() - 1);
             } else {
                 sb.append(c);
