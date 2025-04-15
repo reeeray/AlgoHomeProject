@@ -26,7 +26,7 @@ public class CountGoodTripletsInAnArray_2179 {
             final int left = customTree.query(position);
             final int right = (n - 1 - position) - (i - left);
             customTree.update(position, 1);
-            ans += 1l * left * right;
+            ans += (long) left * right;
         }
         return ans;
     }
