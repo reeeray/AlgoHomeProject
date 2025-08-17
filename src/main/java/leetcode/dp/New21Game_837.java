@@ -10,6 +10,44 @@ public class New21Game_837 {
 
     }
 
+    //we don't need to calculate sum of previous probabilities each time, we can keep it as a sliding window
+    //Time O(n) and Space O(n)
+    public static double new21gameSlidingWindow(final int n, final int k, final int maxPts) {
+        final double[] dp = new double[n + 1];
+        dp[0] = 1;
+        double sum = k > 0 ? 1 : 0;
+        for (int i = 1; i <= n; i++) {
+            dp[i] = sum * (1.0 / maxPts);
+            if(i < k) {
+                sum += dp[i];
+            }
+            if(i - maxPts >= 0 && i - maxPts < k) {
+                sum -= dp[i - maxPts];
+            }
+        }
+        double res = 0;
+        for(int i = k; i <= n; i++) {
+            res += dp[i];
+        }
+        return res;
+    }
+    //it will be TLE but logic is correct. Time complexity is O(n * maxPts)
+    public static double new21game(final int n, final int k, final int maxPts) {
+        final double[] dp = new double[n + 1];
+        dp[0] = 1;
+        for(int i = 1; i <= n; i ++) {
+            for(int j = 1; j <= maxPts; j++) {
+                if(i - j >= 0 && i - j < k) {
+                    dp[i] += dp[i - j] * (1 / maxPts);
+                }
+            }
+        }
+        double res = 0;
+        for(int i = k; i <= n; i++) {
+            res += dp[i];
+        }
+        return res;
+    }
     /**
      * Alice plays the following game, loosely based on the card game "21".
      *
