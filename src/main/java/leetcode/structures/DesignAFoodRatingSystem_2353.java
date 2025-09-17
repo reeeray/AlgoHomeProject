@@ -31,6 +31,7 @@ public class DesignAFoodRatingSystem_2353 {
 
     }
 
+    //failing on the TC 71 out of 78
     private static class FoodRatings {
 
         private final String[] foods;
