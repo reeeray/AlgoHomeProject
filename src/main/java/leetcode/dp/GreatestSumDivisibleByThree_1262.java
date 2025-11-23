@@ -51,7 +51,7 @@ public class GreatestSumDivisibleByThree_1262 {
     }
 
     //DP Time O(n) and Space O(1)
-    public int maxSumDivThree(int[] nums) {
+    public int maxSumDivThreeOpt(int[] nums) {
         int[] f = { 0, Integer.MIN_VALUE, Integer.MIN_VALUE };
         for (int num : nums) {
             int[] g = new int[3];
