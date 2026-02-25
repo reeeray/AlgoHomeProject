@@ -17,6 +17,15 @@ public class SortIntegersByTheNumberOf1Bits_1356 {
 
     }
 
+    private static int[] sortByBitsStraighForward(final int[] arr) {
+        return Arrays.stream(arr).boxed().sorted((a, b) -> {
+            final int bitCountA = Integer.bitCount(a);
+            final int bitCountB = Integer.bitCount(b);
+            if(bitCountA == bitCountB) return Integer.compare(a, b);
+            return Integer.compare(bitCountA, bitCountB);
+        }).mapToInt(i -> i).toArray();
+    }
+
     public static int[] sortByBits(final int[] arr) {
         final Integer[] nums = Arrays.stream(arr).boxed().toArray(Integer[]::new);
         Arrays.sort(nums, new ByteComparator());
