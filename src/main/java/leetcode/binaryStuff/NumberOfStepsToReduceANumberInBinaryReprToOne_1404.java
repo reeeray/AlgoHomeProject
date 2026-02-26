@@ -10,6 +10,37 @@ public class NumberOfStepsToReduceANumberInBinaryReprToOne_1404 {
         numSteps("1101");
     }
 
+    public static int numStepsAlternative(final String s) {
+        int res = 0;
+        int val = Integer.valueOf(s, 2);
+        while(val != 1) {
+            if(val % 2 == 0) val /= 2;
+            else val++;
+            res++;
+        }
+        return res;
+    }
+
+    //Greedy Time O(n) and Space O(1)
+    public int numStepsSimilarToNext(String s) {
+        final int N = s.length();
+
+        int operations = 0;
+        int carry = 0;
+        for (int i = N - 1; i > 0; i--) {
+            int digit = Character.getNumericValue(s.charAt(i)) + carry;
+
+            if (digit % 2 == 1) {
+                operations += 2;
+                carry = 1;
+            } else {
+                operations++;
+            }
+        }
+
+        return operations + carry;
+    }
+
     public static int numSteps(final String s) {
         int total = 0;
         int numberOfOnes = 0;
