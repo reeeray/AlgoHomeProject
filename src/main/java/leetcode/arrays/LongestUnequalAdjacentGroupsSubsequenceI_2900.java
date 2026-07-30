@@ -29,9 +29,9 @@ public class LongestUnequalAdjacentGroupsSubsequenceI_2900 {
 
     //Totally different task
     public static List<String> getLongestSubsequenceMisunderstood(final String[] words, final int[] groups) {
-        if(groups.length == 1) {
-            return List.of(words[0]);
-        }
+//        if(groups.length == 1) {
+//            return List.of(words[0]);
+//        }
         final List<String> res = new ArrayList<>();
         int startLongest = 0;
         int endLongest = 0;
