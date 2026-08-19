@@ -6,17 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e61c2cbd-e5b2-4b5a-9e53-b3f7809f1f8c" name="Default Changelist" comment="363 + 566 Sunday and Monday leetcode daily challenge">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/pureLogic/MinNumberOfPushesToTypeWordI_3014.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/pureLogic/CinemaSeatAllocation_1386.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/books/BinarySearchAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/books/BinarySearchAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/books/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/books/Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/books/GreedyAlgorithms$Stuff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/books/GreedyAlgorithms$Stuff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/books/GreedyAlgorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/books/GreedyAlgorithms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/BinarySearchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/FibTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/GreedyAlgosTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/LongestUnequalAdjacentGroupsSubsequenceI_2900.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/LongestUnequalAdjacentGroupsSubsequenceI_2900.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -90,16 +81,29 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/strings/SmallestPalindromicRearragementI_3517.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/pureLogic/MinNumberOfPushesToTypeWordI_3014.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/pureLogic/MinNumberOfPushesToTypeWordI_3014.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/pureLogic/CinemaSeatAllocation_1386.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="265">
+              <caret line="19" selection-start-line="19" selection-end-line="42" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#456#474#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -433,7 +437,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/pureLogic/MaxNumberOfDistinctElementsAfterOperations_3397.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/structures/SimpleBankSystem_2043.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/pointers/MakeArrayElementsEqualToZero_3354.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/bruteforce/MinNumberOfOperationsToMakeAllArrayElementsEqualTo1_2654.java" />
@@ -484,6 +487,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/dp/JumpGameVII_1871.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/strings/SmallestPalindromicRearragementI_3517.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/pureLogic/MinNumberOfPushesToTypeWordI_3014.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/pureLogic/CinemaSeatAllocation_1386.java" />
       </list>
     </option>
   </component>
@@ -511,8 +515,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -559,13 +561,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/gshein/Documents/repos/AlgoHomeProject/src/main/java/leetcode/grids/RotatingTheBox_1861.java&#10;1404&#9;PSI&#9;JAVA://leetcode.binaryStuff.NumberOfStepsToReduceANumberInBinaryReprToOne_1404&#10;1356&#9;PSI&#9;JAVA://leetcode.binaryStuff.SortIntegersByTheNumberOf1Bits_1356&#10;8378&#9;PSI&#9;JAVA://leetcode.dp.New21Game_837&#10;1957&#9;PSI&#9;JAVA://leetcode.strings.DeleteCharactersToMakeFancyString_1957&#10;CountAndS&#9;PSI&#9;JAVA://leetcode.strings.CountAndSay_38&#10;916&#9;null&#9;null&#10;1930&#9;PSI&#9;JAVA://leetcode.strings.UniqueLength3PolindromicSubseq_1930&#10;1422&#9;PSI&#9;JAVA://leetcode.strings.MaxScoreAfterSplittingAString_1422&#10;515&#9;PSI&#9;JAVA://leetcode.trees.FindLargestValueInEachTreeRow_515&#10;1514&#9;PSI&#9;JAVA://leetcode.graphs.PathWithMaxProbability_1514&#10;1140&#9;PSI&#9;JAVA://leetcode.dp.StoneGame2_1140&#10;703&#9;PSI&#9;JAVA://leetcode.arrays.binarySearch.KthLargestElementInaStream_703&#10;912&#9;PSI&#9;JAVA://leetcode.arrays.SortAnArray_912&#10;523&#9;PSI&#9;JAVA://leetcode.search.ContinuousSubArrSum_523&#10;79&#9;PSI&#9;JAVA://leetcode.arrays.WordSearch_79&#10;287&#9;PSI&#9;JAVA://leetcode.algos.FindTheDuplicateNumber_287&#10;543&#9;PSI&#9;JAVA://leetcode.trees.DiameterOfBinaryTree_543&#10;787&#9;PSI&#9;JAVA://leetcode.Cheapest_Flights_Within_K_Stops_787&#10;997&#9;PSI&#9;JAVA://leetcode.pureLogic.FindTheTownJudge_997&#10;279&#9;PSI&#9;JAVA://leetcode.pureLogic.PerfectSquares_279&#10;49&#9;PSI&#9;JAVA://leetcode.strings.GroupAnagrams_49&#10;1239&#9;PSI&#9;JAVA://leetcode.strings.MaxLOfConcatStr_1239&#10;645&#9;PSI&#9;JAVA://leetcode.arrays.SetMismatch_645&#10;1207&#9;PSI&#9;JAVA://leetcode.arrays.UniqueNumberOfOccurances_1207&#10;1662&#9;PSI&#9;JAVA://leetcode.strings.TwoStringsArrEq_1662&#10;Comparator&#9;PSI&#9;JAVA://sun.swing.FilePane.DirectoriesFirstComparatorWrapper#comparator&#10;Compara&#9;PSI&#9;JAVA://patterns.functional.comparator.Comparator&#10;toK&#9;PSI&#9;JAVA://leetcode.strings.TopKFrequentWords_692&#10;20&#9;PSI&#9;JAVA://leetcode.strings.ValidParanthesis_20&#10;Jum&#9;FILE&#9;file:///Users/gshein/Documents/repos/AlgoHomeProject/src/main/java/leetcode/graphs/JumpGame2_45.java&#10;28&#9;PSI&#9;JAVA://leetcode.strings.ImplementStrStr_28&#10;Per&#9;FILE&#9;file:///Users/gshein/Documents/repos/AlgoHomeProject/src/main/java/coursera/projects_part1/deques_and_randomized_queues/Permutation.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1785433250162" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1787167466075" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36091954" />
@@ -1393,7 +1397,8 @@
       <workItem from="1779294811981" duration="647000" />
       <workItem from="1779725920635" duration="645000" />
       <workItem from="1785261880110" duration="1149000" />
-      <workItem from="1785432727409" duration="522000" />
+      <workItem from="1785432727409" duration="670000" />
+      <workItem from="1787165281386" duration="1907000" />
     </task>
     <task id="LOCAL-00001" summary="daily challenge 1004">
       <created>1624992417470</created>
@@ -1526,7 +1531,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="871341000" />
+    <option name="totallyTimeSpent" value="873396000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1541,7 +1546,7 @@
     <frame x="-1920" y="-46" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2736954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27635783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -3307,20 +3312,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/structures/SimpleBankSystem_2043.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/strings/MaxNumberOfOperationsToMoveOnesToTheEnd_3228.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays/IncrementSubmatricesByOne_2536.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -3678,14 +3669,32 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/strings/SmallestPalindromicRearragementI_3517.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/pureLogic/MinNumberOfPushesToTypeWordI_3014.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="435">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/pureLogic/CinemaSeatAllocation_1386.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="19" selection-start-line="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#474#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
